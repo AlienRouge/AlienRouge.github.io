@@ -1,0 +1,63 @@
+.text::selection {
+    color: white;
+    background-color: green;
+  }
+ li:hover{
+    color: white;
+    background-color: green; 
+  }
+html,
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: green;
+  color: white;
+  text-align: center;
+  line-height: 2em;
+  margin: 0;
+  font-size: 24px;
+}
+nav {
+  background-color: red;
+  color: white;
+  margin: 0;
+  flex-shrink: 0;
+  padding: 10px 25px 0px 45px;
+  min-height: calc(100vh - 73px);
+  box-sizing: border-box;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav li {
+  width: 120px;
+  padding: 3px;
+  text-decoration: underline;
+}
+
+
+main {
+  display: flex;
+  margin: 0 auto;
+  max-width: 800px;
+}
+.text {
+  text-align: justify;
+  margin: 2em;
+}
+.text::first-letter {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+}
